@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WindowsFormsAppCourseWork.Form1">
+    <Position X="3.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAGEAABEACACAAAACCMg4ABAAMHQcAAEAQAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Database" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsAppCourseWork.IterativeMethodOfGaussSeidel">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAQAAAAEAAACAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>IterativeMethodOfGaussSeidel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsAppCourseWork.MatrixTools">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>MatrixTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsAppCourseWork.indexDel">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAABAAAACAAAACEAAIAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>indexDel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Database" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsAppCourseWork.Program">
+    <Position X="0.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Form1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsAppCourseWork.Database">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <NestedTypes>
+      <Class Name="WindowsFormsAppCourseWork.Database.DataGridViewPrinter" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Database.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAACAAAADgEAACQEg5AICQAHIIAoAIQAA=</HashCode>
+      <FileName>Database.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AddForm" />
+      <Property Name="indexDel" />
+      <Property Name="Form1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsAppCourseWork.AddForm">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACADAAAAAGAAADACgACAAABCIAAYAAAAEGAAAAAAAAA=</HashCode>
+      <FileName>AddForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Database" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
